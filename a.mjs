@@ -8,8 +8,5 @@ console.log('redingg', readdirSync('.', {
     encoding: 'utf8'
 }))
 
-console.log(readdirSync(process.argv[1], {
-    encoding: 'utf8'
-}))
-
+console.log(process.cwd())
 
